@@ -9,9 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   border: 2px solid #f2f2f2;
 }
-.span-accent {
-  font-weight: bold;
-}
+
 .flex-colomns {
   flex-direction: column;
 }
@@ -20,7 +18,6 @@
   height: 32px;
   background: url("../images/logo_place_header.svg") center no-repeat;
 }
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -30,7 +27,7 @@
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
 }
-.header__logo_place_header {
+.place_header {
   position: absolute;
   left: 64px;
   top: 30px;
@@ -41,9 +38,9 @@
   height: 100%;
   align-items: center;
 }
-.header__title-flex {
+.header__title-text {
   width: 730px;
-  padding-left: 64px;
+  margin-left: 64px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
@@ -63,10 +60,10 @@
   text-decoration: none;
   color: #2f80ed;
 }
-.header__subtitle-link::after {
+.header__subtitle_link::after {
   content: ' \2192';
 }
-.header__main-illustration {
+.header__main_illustration {
   width: 765px;
   height: 608px;
   background-size: contain;
@@ -74,13 +71,11 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
-  background-color: blue;
+  background-color: #2f80ed;
   position: absolute;
   top: 64px;
   right: 0;
@@ -89,7 +84,7 @@
 
 .description {
   padding-top: 100px;
-  border: 3px solid #f2f2f2;
+  border: 2px solid #f2f2f2;
 }
 .two-colomns {
   width: 80%;
@@ -98,26 +93,36 @@
   margin: auto;
 }
 .two-colomns__brief {
-  width: 175px;
-}
-.two-colomns__brief-content{
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
   color: #2f80ed;
+  width: 175px;
+  margin: 0;
 }
-.two-colomns__main-text {
+.two-colomns__main-text{
+  flex-direction: column;
   width: 80%;
   min-width: 784px;
+}
+.two-colomns__paragraph {
   justify-content: space-between;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.two-colomns__paragraph:nth-of-type(3){
+  margin-bottom: 0;
+}
+.span-accent {
+  font-weight: bold;
 }
 
 .digits {
   padding: 100px 0;
-  border: 3px solid #f2f2f2;
+  border: 2px solid #f2f2f2;
 }
 
 .digits__title {
