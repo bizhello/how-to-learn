@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  border: 2px solid #f2f2f2;
 }
 .title {
   width: 60%;
@@ -46,14 +45,12 @@
   line-height: 1.2;
   margin-top: 20px;
 }
-.flex-colomns {
-  flex-direction: column;
-}
 .logo {
   width: 183px;
   height: 32px;
   background: url("../images/logo_place_header.svg") center no-repeat;
 }
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -61,7 +58,7 @@
   /* выше установили ограничения для секции */
   position: relative;
   background-color: #f2f2f2;
-  border: 2px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 .place_header {
   position: absolute;
@@ -117,10 +114,9 @@
   right: 0;
 }
 
-
 .description {
   padding-top: 100px;
-  border: 2px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 .two-colomns {
   width: 80%;
@@ -156,10 +152,9 @@
   font-weight: bold;
 }
 
-
 .digits {
   padding: 100px 0;
-  border: 2px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 .digits__title {
   margin: auto;
@@ -170,11 +165,10 @@
   font-weight: normal;
 }
 
-
 .feynman {
   position: relative;
   min-height: 890px;
-  border: 2px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 .feynman__title {
   width: 648px;
@@ -208,7 +202,6 @@
   z-index: -1;
 }
 
-
 .kaufman {
   margin: 0;
   padding: 0;
@@ -217,7 +210,7 @@
   position: relative;
   overflow: hidden;
   z-index: -1;
-  border: 2px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
 .kaufman__title_theme_dark {
   margin: 90px auto 20px;
@@ -242,83 +235,75 @@
   background: url("../images/kaufman-triangle.svg") no-repeat center top;
 }
 
-
 .footer {
   padding: 60px 0 40px;
-  background-color: #1f1f1f;
+  background: #1f1f1f;
   color: white;
 }
-.footer__columns{
+.footer__columns {
   display: flex;
+  justify-content: space-between;
   width: 90%;
   margin: auto;
+  min-height: 350px;
 }
-.column {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
+  justify-content: space-between;
+  flex-basis: 711px;
 }
-.footer_author {
+.footer__author {
   margin: 18px 0;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
 }
-.content-copyright {
-  flex-basis: 711px;
-  justify-content: space-between;
-}
-.column-heading {
+.footer__column-heading-info {
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
-
+  margin: 0;
 }
-.column-links,.content-social-text {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 30px;
-}
-.content-social-text,.column-links_text {
- list-style-type: none;
-}
-.content-social-title {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: normal;
-}
-.content-social-text {
-  display: flex;
-  align-items: center;
-}
-.column-links_text a,.content-social-text a{
-text-decoration: none;
-padding-left: 0;
-margin-left: 0;
-justify-content: flex-end;
-color: white;
-}
-.please{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 50%;
-}
-
-.column-heading, .content-social-title {
-  text-align: center;
-}
-.please ul{
+.footer__column-links-info {
   display: flex;
   flex-direction: column;
-  margin-left: 0;
-  padding-left: 0;
+  margin: 20px 0 16px;
 }
-.social-icon {
-  width: 10px;
-  height: 10px;
+.footer__column-links-info a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+}
+.footer__column_content-social {
+  margin: 0;
+}
+.footer__column-heading-social {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.footer__column-links-social {
+  margin: 20px 0 16px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+}
+.footer__social-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
   margin-right: 10px;
-  background: black;
-  z-index: 2;
-  font-size: 0px;
+}
+.footer__social-icon-f {
+  background: url(../images/facebook_color_white.svg)
+}
+.footer__social-icon-v {
+  background: url(../images/vk_color_white.svg)
+}
+.footer__social-icon-i {
+  background: url(../images/instagram_color_white.svg)
 }
