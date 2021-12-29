@@ -308,25 +308,17 @@
 .footer__column_content-social {
   margin: 0;
 }
-.footer__column-link p{
-  margin: 0;
-  padding: 0;
-}
-.footer__social-icon-f {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+.footer__social-icon_f {
   background: url(../images/facebook_color_white.svg) no-repeat;
 }
-.footer__social-icon-v {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
+.footer__social-icon_v {
   background: url(../images/vk_color_white.svg) no-repeat;
 }
-.footer__social-icon-i {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
+.footer__social-icon_i {
   background: url(../images/instagram_color_white.svg) no-repeat;
 }
