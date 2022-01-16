@@ -1,0 +1,22 @@
+.khan__buy-link {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-left: 48px;
+  text-decoration: none;
+  color: #2f80ed;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+  transition: opacity 0.3s;
+  overflow-x: visible;
+}
+.khan__buy-link:hover {
+  opacity: 0.7;
+}
+.khan__buy-link::after {
+  position: absolute;
+  right: -45px;
+  top: -4px;
+  content: ' \2192';
+}

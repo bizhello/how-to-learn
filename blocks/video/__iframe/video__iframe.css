@@ -1,0 +1,4 @@
+.video__iframe {
+  box-sizing: border-box;
+  overflow-y: visible;
+}

@@ -1,0 +1,9 @@
+.cards__discription {
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+}
