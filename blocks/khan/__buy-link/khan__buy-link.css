@@ -1,5 +1,4 @@
 .khan__buy-link {
-  position: relative;
   margin: 0;
   padding: 0;
   margin-left: 48px;
@@ -15,8 +14,5 @@
   opacity: 0.7;
 }
 .khan__buy-link::after {
-  position: absolute;
-  right: -45px;
-  top: -4px;
   content: ' \2192';
 }

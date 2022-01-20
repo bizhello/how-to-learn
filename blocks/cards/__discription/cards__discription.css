@@ -1,6 +1,8 @@
 .cards__discription {
-  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
   padding: 0;
+  margin: 0;
   margin: auto;
   text-align: center;
   font-size: 18px;

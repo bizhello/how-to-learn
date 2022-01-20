@@ -1,3 +1,6 @@
 .resources__logo_icon_arzamas {
-  background: url(../../../../../images/logo/resources-arzamas.svg) no-repeat center;
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  min-height: 38px;
 }

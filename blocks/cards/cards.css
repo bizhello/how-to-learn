@@ -1,4 +1,6 @@
 .cards {
+  margin-block-start: 0;
+  margin-block-end: 0;
   display: flex;
   box-sizing: border-box;
   flex-wrap: wrap;

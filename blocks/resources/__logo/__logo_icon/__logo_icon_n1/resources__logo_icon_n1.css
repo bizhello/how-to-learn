@@ -1,3 +1,6 @@
 .resources__logo_icon_n1 {
-  background: url(../../../../../images/logo/resources-n1.svg) no-repeat center;
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  min-height: 38px;
 }
